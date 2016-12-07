@@ -45,7 +45,25 @@ namespace Carrot_and_stick.Droid
 		{
 			
 			// aapt resource value: 0x7f020000
-			public const int Icon = 2130837504;
+			public const int CarrotIcon = 2130837504;
+			
+			// aapt resource value: 0x7f020001
+			public const int CarrotIconOrig = 2130837505;
+			
+			// aapt resource value: 0x7f020002
+			public const int ic_add_white_36dp = 2130837506;
+			
+			// aapt resource value: 0x7f020003
+			public const int ic_done_white_48dp = 2130837507;
+			
+			// aapt resource value: 0x7f020004
+			public const int ic_help_outline_white_36dp = 2130837508;
+			
+			// aapt resource value: 0x7f020005
+			public const int Icon = 2130837509;
+			
+			// aapt resource value: 0x7f020006
+			public const int IconOrig = 2130837510;
 			
 			static Drawable()
 			{
@@ -60,101 +78,101 @@ namespace Carrot_and_stick.Droid
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f05001b
-			public const int CheckboxContainer = 2131034139;
+			// aapt resource value: 0x7f060019
+			public const int CurrentPeriodText = 2131099673;
 			
-			// aapt resource value: 0x7f05001f
-			public const int DueDate = 2131034143;
+			// aapt resource value: 0x7f06001a
+			public const int RewardInformationText = 2131099674;
 			
-			// aapt resource value: 0x7f05001d
-			public const int TextContainer = 2131034141;
+			// aapt resource value: 0x7f060017
+			public const int TextContainer = 2131099671;
 			
-			// aapt resource value: 0x7f05001e
-			public const int Title = 2131034142;
+			// aapt resource value: 0x7f060018
+			public const int Title = 2131099672;
 			
-			// aapt resource value: 0x7f050015
-			public const int addGoalButton = 2131034133;
+			// aapt resource value: 0x7f060015
+			public const int addGoalButton = 2131099669;
 			
-			// aapt resource value: 0x7f050017
-			public const int allTasksContainer = 2131034135;
+			// aapt resource value: 0x7f06001e
+			public const int add_goal = 2131099678;
 			
-			// aapt resource value: 0x7f050018
-			public const int allTasksListView = 2131034136;
+			// aapt resource value: 0x7f06001c
+			public const int allTasksContainer = 2131099676;
 			
-			// aapt resource value: 0x7f050016
-			public const int cancelButton = 2131034134;
+			// aapt resource value: 0x7f06001d
+			public const int allTasksListView = 2131099677;
 			
-			// aapt resource value: 0x7f05000a
-			public const int daysInPeriodInput = 2131034122;
+			// aapt resource value: 0x7f060016
+			public const int cancelButton = 2131099670;
 			
-			// aapt resource value: 0x7f05000b
-			public const int frequencyDescriptionEndLabel = 2131034123;
+			// aapt resource value: 0x7f06000a
+			public const int daysInPeriodInput = 2131099658;
 			
-			// aapt resource value: 0x7f050009
-			public const int frequencyDescriptionMiddleLabel = 2131034121;
+			// aapt resource value: 0x7f06001b
+			public const int doneButton = 2131099675;
 			
-			// aapt resource value: 0x7f050007
-			public const int frequencyDescriptionStartLabel = 2131034119;
+			// aapt resource value: 0x7f06000b
+			public const int frequencyDescriptionEndLabel = 2131099659;
 			
-			// aapt resource value: 0x7f050006
-			public const int frequencyLayout = 2131034118;
+			// aapt resource value: 0x7f060009
+			public const int frequencyDescriptionMiddleLabel = 2131099657;
 			
-			// aapt resource value: 0x7f050001
-			public const int goalHeaderText = 2131034113;
+			// aapt resource value: 0x7f060007
+			public const int frequencyDescriptionStartLabel = 2131099655;
 			
-			// aapt resource value: 0x7f050010
-			public const int linearLayout1 = 2131034128;
+			// aapt resource value: 0x7f060006
+			public const int frequencyLayout = 2131099654;
 			
-			// aapt resource value: 0x7f05001a
-			public const int linearLayoutHorizontal = 2131034138;
+			// aapt resource value: 0x7f060001
+			public const int goalHeaderText = 2131099649;
 			
-			// aapt resource value: 0x7f050019
-			public const int myButton = 2131034137;
+			// aapt resource value: 0x7f06001f
+			public const int help = 2131099679;
 			
-			// aapt resource value: 0x7f05000f
-			public const int periodsPerGoalEndLabel = 2131034127;
+			// aapt resource value: 0x7f060010
+			public const int linearLayout1 = 2131099664;
 			
-			// aapt resource value: 0x7f05000e
-			public const int periodsPerGoalInput = 2131034126;
+			// aapt resource value: 0x7f06000f
+			public const int periodsPerGoalEndLabel = 2131099663;
 			
-			// aapt resource value: 0x7f05000c
-			public const int periodsPerGoalLayout = 2131034124;
+			// aapt resource value: 0x7f06000e
+			public const int periodsPerGoalInput = 2131099662;
 			
-			// aapt resource value: 0x7f05000d
-			public const int periodsPerGoalStartLabel = 2131034125;
+			// aapt resource value: 0x7f06000c
+			public const int periodsPerGoalLayout = 2131099660;
 			
-			// aapt resource value: 0x7f050011
-			public const int rewardDescriptionEndLabel = 2131034129;
+			// aapt resource value: 0x7f06000d
+			public const int periodsPerGoalStartLabel = 2131099661;
 			
-			// aapt resource value: 0x7f050012
-			public const int rewardDescriptionInput = 2131034130;
+			// aapt resource value: 0x7f060011
+			public const int rewardDescriptionEndLabel = 2131099665;
 			
-			// aapt resource value: 0x7f050000
-			public const int rootLayout = 2131034112;
+			// aapt resource value: 0x7f060012
+			public const int rewardDescriptionInput = 2131099666;
 			
-			// aapt resource value: 0x7f050013
-			public const int space1 = 2131034131;
+			// aapt resource value: 0x7f060000
+			public const int rootLayout = 2131099648;
 			
-			// aapt resource value: 0x7f05001c
-			public const int taskCompleteCheckbox = 2131034140;
+			// aapt resource value: 0x7f060013
+			public const int space1 = 2131099667;
 			
-			// aapt resource value: 0x7f050008
-			public const int taskDaysPerPeriodInput = 2131034120;
+			// aapt resource value: 0x7f060008
+			public const int taskDaysPerPeriodInput = 2131099656;
 			
-			// aapt resource value: 0x7f050005
-			public const int taskDescriptionEndLabel = 2131034117;
+			// aapt resource value: 0x7f060005
+			public const int taskDescriptionEndLabel = 2131099653;
 			
-			// aapt resource value: 0x7f050004
-			public const int taskDescriptionInput = 2131034116;
+			// aapt resource value: 0x7f060004
+			public const int taskDescriptionInput = 2131099652;
 			
-			// aapt resource value: 0x7f050002
-			public const int taskDescriptionLayout = 2131034114;
+			// aapt resource value: 0x7f060002
+			public const int taskDescriptionLayout = 2131099650;
 			
-			// aapt resource value: 0x7f050003
-			public const int taskDescriptionStartLabel = 2131034115;
+			// aapt resource value: 0x7f060003
+			public const int taskDescriptionStartLabel = 2131099651;
 			
-			// aapt resource value: 0x7f050014
-			public const int textView1 = 2131034132;
+			// aapt resource value: 0x7f060014
+			public const int textView1 = 2131099668;
 			
 			static Id()
 			{
@@ -173,10 +191,10 @@ namespace Carrot_and_stick.Droid
 			public const int AddGoalScreen = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int HomeScreen = 2130903041;
+			public const int GoalRowItem = 2130903041;
 			
 			// aapt resource value: 0x7f030002
-			public const int UserTaskRowItem = 2130903042;
+			public const int HomeScreen = 2130903042;
 			
 			static Layout()
 			{
@@ -188,14 +206,42 @@ namespace Carrot_and_stick.Droid
 			}
 		}
 		
+		public partial class Menu
+		{
+			
+			// aapt resource value: 0x7f050000
+			public const int MainMenu = 2131034112;
+			
+			static Menu()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Menu()
+			{
+			}
+		}
+		
 		public partial class String
 		{
 			
-			// aapt resource value: 0x7f040001
-			public const int app_name = 2130968577;
-			
 			// aapt resource value: 0x7f040000
-			public const int hello = 2130968576;
+			public const int add_goal = 2130968576;
+			
+			// aapt resource value: 0x7f040004
+			public const int app_name = 2130968580;
+			
+			// aapt resource value: 0x7f040005
+			public const int default_taskname = 2130968581;
+			
+			// aapt resource value: 0x7f040002
+			public const int edit_goals = 2130968578;
+			
+			// aapt resource value: 0x7f040003
+			public const int goals_complete = 2130968579;
+			
+			// aapt resource value: 0x7f040001
+			public const int menu_help = 2130968577;
 			
 			static String()
 			{

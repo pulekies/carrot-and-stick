@@ -33,6 +33,7 @@
   <ItemGroup>
     <Compile Include="GoalManager.cs" />
     <Compile Include="Goal.cs" />
+    <Compile Include="StringResourceHelper.cs" />
     <Compile Include="UserTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -15,7 +15,7 @@ namespace Carrot_and_stick.Droid
     /// <summary>
     /// Add a new goal
     /// </summary>
-    [Activity(Label = "Add a new goal!")]
+    [Activity(Label = "Add a new goal!", Icon = "@drawable/CarrotIcon")]
     public class AddGoalScreen : Activity
     {
         EditText taskDescriptionInput;
@@ -23,10 +23,6 @@ namespace Carrot_and_stick.Droid
         EditText daysInPeriodInput;
         EditText periodsPerGoalInput;
         EditText rewardDescriptionInput;
-
-        Button addGoalButton;
-        Button cancelButton;
-
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -50,6 +46,8 @@ namespace Carrot_and_stick.Droid
             {
                 // TODO: Handle missing/invalid input. 
                 String taskDescription = taskDescriptionInput.Text;
+                taskDescription = String.IsNullOrWhiteSpace(taskDescription) ? GetString(Resource.String.default_taskname) : taskDescription;
+
                 int taskDaysPerPeriod; 
                 Int32.TryParse(taskDaysPerPeriodInput.Text, out taskDaysPerPeriod);
                 int daysInPeriod;
