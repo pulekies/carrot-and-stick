@@ -8,7 +8,7 @@ namespace Carrot_and_stick
         private static GoalManager goalManager;
 
         ObservableCollection<Goal> allGoalsCollection = new ObservableCollection<Goal>();
-        ObservableCollection<UserTask> allTasksCollection = new ObservableCollection<UserTask>();
+        ObservableCollection<Goal> taskCompletedGoalsCollection = new ObservableCollection<Goal>();
 
         public static GoalManager getInstance()
         {
@@ -27,11 +27,15 @@ namespace Carrot_and_stick
         public void AddGoal(Goal goal)
         {
             allGoalsCollection.Add(goal);
-            allTasksCollection.Add(new UserTask(goal.TaskDescription));
         }
 
-        public ObservableCollection<UserTask> AllTasks { get { return allTasksCollection; }  }
-        // public ObservableCollection<UserTask> AllGoals { get { return allGoalsCollection; } }
+        public void TaskCompleted(Goal goal)
+        {       
+            allGoalsCollection.Remove(goal);
+            taskCompletedGoalsCollection.Add(goal);
+        }
+
+        public ObservableCollection<Goal> AllGoals { get { return allGoalsCollection; }  }
     }
 }
 

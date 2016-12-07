@@ -4,9 +4,9 @@
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-  <application android:label="Carrot_and_stick.Droid" android:name="android.app.Application" android:allowBackup="true" android:debuggable="true">
-    <activity android:label="Add a new goal!" android:name="md55d528e331e1427309bf4bb66a84585af.AddGoalScreen" />
-    <activity android:icon="@drawable/icon" android:label="The Carrot and Stick" android:name="md55d528e331e1427309bf4bb66a84585af.HomeScreen">
+  <application android:label="Carrot_and_stick.Droid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/carroticon" android:debuggable="true">
+    <activity android:icon="@drawable/carroticon" android:label="Add a new goal!" android:name="md55d528e331e1427309bf4bb66a84585af.AddGoalScreen" />
+    <activity android:icon="@drawable/carroticon" android:label="The Carrot and Stick" android:name="md55d528e331e1427309bf4bb66a84585af.HomeScreen">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />

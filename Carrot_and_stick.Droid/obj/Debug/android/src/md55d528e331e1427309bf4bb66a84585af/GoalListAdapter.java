@@ -1,7 +1,7 @@
 package md55d528e331e1427309bf4bb66a84585af;
 
 
-public class UserTaskListAdapter
+public class GoalListAdapter
 	extends android.widget.BaseAdapter
 	implements
 		mono.android.IGCUserPeer
@@ -15,15 +15,15 @@ public class UserTaskListAdapter
 			"n_getItem:(I)Ljava/lang/Object;:GetGetItem_IHandler\n" +
 			"n_getView:(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;:GetGetView_ILandroid_view_View_Landroid_view_ViewGroup_Handler\n" +
 			"";
-		mono.android.Runtime.register ("Carrot_and_stick.Droid.UserTaskListAdapter, Carrot_and_stick.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", UserTaskListAdapter.class, __md_methods);
+		mono.android.Runtime.register ("Carrot_and_stick.Droid.GoalListAdapter, Carrot_and_stick.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", GoalListAdapter.class, __md_methods);
 	}
 
 
-	public UserTaskListAdapter () throws java.lang.Throwable
+	public GoalListAdapter () throws java.lang.Throwable
 	{
 		super ();
-		if (getClass () == UserTaskListAdapter.class)
-			mono.android.TypeManager.Activate ("Carrot_and_stick.Droid.UserTaskListAdapter, Carrot_and_stick.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
+		if (getClass () == GoalListAdapter.class)
+			mono.android.TypeManager.Activate ("Carrot_and_stick.Droid.GoalListAdapter, Carrot_and_stick.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "", this, new java.lang.Object[] {  });
 	}
 
 
