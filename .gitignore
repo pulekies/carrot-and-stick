@@ -1,9 +1,26 @@
-*.userprefs
-bin
-Configuration.Override.props
-Configuration.OperatingSystem.props
-msfinal.pub
+#Autosave files
+*~
+
+# Build/test output
 obj
-packages
-.DS_Store
-.nuget
+bin
+test-results
+
+# VS sometimes writes these for no apparent reason
+_UpgradeReport_Files
+UpgradeLog.*
+
+# Per-user data
+*.DS_Store
+*.sln.cache
+*.suo
+*.userprefs
+*.usertasks
+*.user
+
+# ReSharper
+*_Resharper.*
+*.Resharper
+
+# dotCover
+*.dotCover
