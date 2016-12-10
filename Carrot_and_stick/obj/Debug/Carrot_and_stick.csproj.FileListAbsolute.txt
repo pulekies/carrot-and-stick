@@ -1,7 +1,0 @@
-D:\Pule\Documents\Visual Studio 2015\Projects\Carrot-and-stick\Carrot-and-stick\Carrot_and_stick\bin\Debug\Carrot_and_stick.dll
-D:\Pule\Documents\Visual Studio 2015\Projects\Carrot-and-stick\Carrot-and-stick\Carrot_and_stick\bin\Debug\Carrot_and_stick.pdb
-D:\Pule\Documents\Visual Studio 2015\Projects\Carrot-and-stick\Carrot-and-stick\Carrot_and_stick\obj\Debug\Carrot_and_stick.dll
-D:\Pule\Documents\Visual Studio 2015\Projects\Carrot-and-stick\Carrot-and-stick\Carrot_and_stick\obj\Debug\Carrot_and_stick.pdb
-D:\Pule\Documents\Visual Studio 2015\Projects\Carrot-and-stick\Carrot-and-stick\Carrot_and_stick\obj\Debug\Carrot_and_stick.csprojResolveAssemblyReference.cache
-D:\Pule\Documents\Visual Studio 2015\Projects\Carrot-and-stick\Carrot-and-stick\Carrot_and_stick\obj\Debug\Carrot_and_stick.dll.mdb
-D:\Pule\Documents\Visual Studio 2015\Projects\Carrot-and-stick\Carrot-and-stick\Carrot_and_stick\bin\Debug\Carrot_and_stick.dll.mdb
