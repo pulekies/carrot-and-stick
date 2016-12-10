@@ -2,9 +2,9 @@
 *~
 
 # Build\test output
-obj
-bin
-test-results
+obj/
+bin/
+test-results/
 
 Carrot_and_stick/obj
 Carrot_and_stick/bin
