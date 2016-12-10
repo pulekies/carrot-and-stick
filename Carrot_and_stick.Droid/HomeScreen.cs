@@ -32,9 +32,8 @@ namespace Carrot_and_stick.Droid
             allGoalsCollection = GoalManager.getInstance().AllGoals;
             while (count < 6)
             {
-                Goal newGoal = new Goal("Task number " + count);
+                Goal newGoal = new Goal("Task number " + count, 5, 7, 2, "a new chalk bag");
                 allGoalsCollection.Add(newGoal);
-                newGoal.RewardDescription = "a new chalk bag";
                 count++;
             }
 
@@ -59,7 +58,9 @@ namespace Carrot_and_stick.Droid
 
         public override void OnCreateContextMenu(IContextMenu menu, View v, IContextMenuContextMenuInfo menuInfo)
         {
-            if (v.Id == Resource.Id.allTasksListView)
+            base.OnCreateContextMenu(menu, v, menuInfo);
+
+            if (v != null && v.Id == Resource.Id.allTasksListView)
             {              
                 var info = (AdapterView.AdapterContextMenuInfo)menuInfo;
                 IEnumerator<Goal> enumerator = allGoalsCollection.GetEnumerator();
