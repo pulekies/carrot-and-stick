@@ -2,21 +2,25 @@
 *~
 
 # Build\test output
-Carrot_and_stick\obj
-Carrot_and_stick\bin
-Carrot_and_stick\test-results
+obj
+bin
+test-results
 
-Carrot_and_stick.Droid\obj
-Carrot_and_stick.Droid\bin
-Carrot_and_stick.Droid\test-results
+Carrot_and_stick/obj
+Carrot_and_stick/bin
+Carrot_and_stick/test-results
 
-Carrot_and_stick.iOS\obj
-Carrot_and_stick.iOS\bin
-Carrot_and_stick.iOS\test-results
+Carrot_and_stick.Droid/obj
+Carrot_and_stick.Droid/bin
+Carrot_and_stick.Droid/test-results
 
-Carrot_and_stick.WinPhone\obj
-Carrot_and_stick.WinPhone\bin
-Carrot_and_stick.WinPhone\test-results
+Carrot_and_stick.iOS/obj
+Carrot_and_stick.iOS/bin
+Carrot_and_stick.iOS/test-results
+
+Carrot_and_stick.WinPhone/obj
+Carrot_and_stick.WinPhone/bin
+Carrot_and_stick.WinPhone/test-results
 
 # VS sometimes writes these for no apparent reason
 _UpgradeReport_Files
