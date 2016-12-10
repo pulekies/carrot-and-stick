@@ -56,7 +56,7 @@ namespace Carrot_and_stick.Droid
                 Int32.TryParse(periodsPerGoalInput.Text, out periodsPerGoal);
                 String rewardDescription = rewardDescriptionInput.Text;       
 
-                Goal g = new Goal(taskDescription, taskDaysPerPeriod, daysInPeriod, periodsPerGoal);
+                Goal g = new Goal(taskDescription, taskDaysPerPeriod, daysInPeriod, periodsPerGoal, rewardDescription);
                 GoalManager goalManager = GoalManager.getInstance();
                 goalManager.AddGoal(g);
                 Finish();
